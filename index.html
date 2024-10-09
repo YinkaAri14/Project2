@@ -27,13 +27,13 @@
   <header>
     <img class="logo" src="img/Cake Logo.png" alt="">
   </header>
-  <main class="dessert-forms-main">
+  <main class=".dessert-forms-main">
     <h1>Pastry forms</h1>
     <p>This form is to get a survey on what type of dessert you like the most </p>
     <p>Welcome to our Dessert Preference Survey, where you can help us uncover the sweetest favorites! From flaky pastries like croissants and tarts to indulgent cakes like chocolate mousse and red velvet, share your top dessert picks and join the fun!</p>
 
-    <div class="dessert-forms-items">
-      <div class="mousse-forms-item">
+    <div class=".dessert-forms-items">
+      <div class=".mousse-forms-item">
         <img src="img/Biscoff-Cups3639.jpg" alt="">
         <h3>My section 1</h3>
         <p>Mousses are a favorite dessert for many because of their light, airy texture and rich, creamy flavor, creating a luxurious treat that melts in your mouth. With endless variations like chocolate, fruit, and even coffee, there's a mousse to satisfy every palate, making it a delightful choice that could easily become yours!</p>
@@ -109,94 +109,169 @@
 
         <div class="form-control">
           <label for="role" id="label-role">
-            Which option best describes you?
+            1. Which type of dessert do you enjoy the most? 
           </label>
 
           <!-- Dropdown options -->
           <select name="role" id="role">
-            <option value="student">Student</option>
-            <option value="intern">Intern</option>
-            <option value="professional">
-                Professional
+            <option value="select">Select one</option>
+            <option value="pastries">Flaky and buttery treats</option>
+            <option value="mousse">Creamy and light desserts</option>
+            <option value="cakes">
+              Moist and sweet confections
             </option>
-            <option value="other">Other</option>
+        
           </select>
         </div>
 
-        <div class="form-control">
+        <div class="form-control1">
           <label>
-            Would you recommend GeeksforGeeks
-            to a friend?
+            2. What is your favorite flavor profile for desserts?
           </label>
 
           <!-- Input Type Radio Button -->
           <label for="recommed-1">
               <input type="radio" id="recommed-1"
-                    name="recommed">Yes
+                    name="recommed">Sweet and fruity
                 </input>
           </label>
           <label for="recommed-2">
               <input type="radio" id="recommed-2"
-                    name="recommed">No
+                    name="recommed">Rich and chocolatey
                 </input>
           </label>
           <label for="recommed-3">
             <input type="radio" id="recommed-3"
-                  name="recommed">Maybe
+                  name="recommed">Light and airy
             </input>
           </label>
+        </label>
+        <label for="recommed-4">
+          <input type="radio" id="recommed-4"
+                name="recommed">Creamy and smooth
+          </input>
         </div>
 
-        <div class="form-control">
-            <label>Languages and Frameworks known
-                <small>(Check all that apply)</small>
-            </label>
-            <!-- Input Type Checkbox -->
-            <label for="inp-1">
-                <input type="checkbox" name="inp">C
-                  </input>
-              </label>
-            <label for="inp-2">
-                <input type="checkbox" name="inp">C++
-                  </input>
-            </label>
-            <label for="inp-3">
-                <input type="checkbox" name="inp">C#
-                  </input>
-            </label>
-            <label for="inp-4">
-                <input type="checkbox" name="inp">Java
-                  </input>
-            </label>
-            <label for="inp-5">
-                <input type="checkbox" name="inp">Python
-                  </input>
-            </label>
-            <label for="inp-6">
-                <input type="checkbox" name="inp">JavaScript
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">React
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Angular
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Django
-                  </input>
-            </label>
-            <label for="inp-7">
-                <input type="checkbox" name="inp">Spring
-                  </input>
-            </label>
+        <div class="form-control2">
+          <label>
+            3. If you chose flaky and buttery treats, which do you prefer?
+          </label>
+
+          <!-- Input Type Radio Button -->
+          <label for="recommed-1">
+              <input type="radio" id="recommed-1"
+                    name="recommed">Croissant
+                </input>
+          </label>
+          <label for="recommed-2">
+              <input type="radio" id="recommed-2"
+                    name="recommed">Eclair
+                </input>
+          </label>
+          <label for="recommed-3">
+            <input type="radio" id="recommed-3"
+                  name="recommed">Danish
+            </input>
+          </label>
+        </label>
+           <label for="comment">
+            Other:
+        </label>
+        </div>
+        
+        <div class="form-control4">
+          <label>
+            4. If you chose creamy and light desserts, which flavor do you like best? 
+          </label>
+
+          <!-- Input Type Radio Button -->
+          <label for="recommed-1">
+              <input type="radio" id="recommed-1"
+                    name="recommed">chocolate
+                </input>
+          </label>
+          <label for="recommed-2">
+              <input type="radio" id="recommed-2"
+                    name="recommed">Fruit (e.g., raspberry, mango)
+                </input>
+          </label>
+          <label for="recommed-3">
+            <input type="radio" id="recommed-3"
+                  name="recommed">Coffee
+            </input>
+          </label>
+        </label>
+        <label for="recommed-4">
+          <input type="radio" id="recommed-4"
+                name="recommed">Other
+          </input>
+        </div>
+
+        <div class="form-control5">
+          <label>
+            How often do you treat yourself to desserts?
+          </label>
+
+          <!-- Input Type Radio Button -->
+          <label for="recommed-1">
+              <input type="radio" id="recommed-1"
+                    name="recommed">Daily
+                </input>
+          </label>
+          <label for="recommed-2">
+              <input type="radio" id="recommed-2"
+                    name="recommed">A few times a week
+                </input>
+          </label>
+          <label for="recommed-3">
+            <input type="radio" id="recommed-3"
+                  name="recommed">Once a week
+            </input>
+          </label>
+        </label>
+        <label for="recommed-4">
+          <input type="radio" id="recommed-4"
+                name="recommed">A few times a month
+          </input>
+        </label>
+      </label>
+      <label for="recommed-5">
+        <input type="radio" id="recommed-5"
+              name="recommed">Rarely
+        </input>
+        </div>
+
+        <div class="form-control6">
+          <label>
+            What is your favorite occasion for enjoying dessert? 
+          </label>
+
+          <!-- Input Type Radio Button -->
+          <label for="recommed-1">
+              <input type="radio" id="recommed-1"
+                    name="recommed">Everyday snack
+                </input>
+          </label>
+          <label for="recommed-2">
+              <input type="radio" id="recommed-2"
+                    name="recommed">Celebrations (e.g., birthdays, holidays)
+                </input>
+          </label>
+          <label for="recommed-3">
+            <input type="radio" id="recommed-3"
+                  name="recommed">Special events (e.g., weddings, parties)Cheese-based dessert
+            </input>
+          </label>
+        </label>
+        <label for="recommed-4">
+          <input type="radio" id="recommed-4"
+                name="recommed">Just because!
+          </input>
         </div>
 
         <div class="form-control">
             <label for="comment">
-                Any comments or suggestions
+              Any specific dessert you can't resist?
             </label>
 
             <!-- multi-line text input control -->
@@ -215,7 +290,7 @@
     </form>
   </main>
   <div class="zebra-forms-pop-up">
-    <h2>Thank you</h2>
+    <h2>Thank you for participating in our Dessert Preference Survey! Your responses will help us uncover the favorite dessert choices for our company</h2>
     <p id="form-name" class="form-name"></p>
   </div>
   <script src="js/main.js"></script>

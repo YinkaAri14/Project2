@@ -18,14 +18,14 @@ img {
     width: 100%;
 }
 
-.zebra-forms-main {
+.dessert-forms-main {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
 }
 
-.zebra-forms-items {
+.dessert-forms-items {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -37,7 +37,7 @@ img {
     }
 }
 
-.zebra-forms-item {
+.mousse-forms-item {
     border: 1px solid #808080;
     border-radius: 16px;
     padding: 20px;
