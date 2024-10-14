@@ -25,7 +25,7 @@
 <body>
   <!-- Place your site's HTML here -->
   <header>
-    <img class="logo" src="img/Bite Me.png" alt="">
+    <img class="logo" src="img/Bite Me Survey.png" alt="">
 
     <nav class="main-nav">
       <a href="Home">Home</a>
@@ -48,24 +48,23 @@
   </header>
   <main class="dessert-forms-main">
     <h1>Bite Me</h1>
-    <p>This form is to get a survey on what type of dessert you like the most </p>
-    <p>Welcome to our Dessert Preference Survey, where you can help us uncover the sweetest favorites! From flaky pastries like croissants and tarts to indulgent cakes like chocolate mousse and red velvet, share your top dessert picks and join the fun!</p>
+    <p>Welcome to our Bite Me Dessert Survey, where you can help us uncover the sweetest favorites and provide recipes you can try to make your treat! From flaky pastries like croissants and tarts to indulgent cakes like chocolate mousse and red velvet, share your top dessert picks and join the fun!</p>
 
     <div class="dessert-forms-items">
-      <div class="mousse-forms-item">
+      <div class="options-forms-item">
         <img src="img/Biscoff-Cups3639.jpg" alt="">
         <h3>My section 1</h3>
         <p>Mousses are a favorite dessert for many because of their light, airy texture and rich, creamy flavor, creating a luxurious treat that melts in your mouth. With endless variations like chocolate, fruit, and even coffee, there's a mousse to satisfy every palate, making it a delightful choice that could easily become yours!</p>
         <a href="#my-form">Go to Form 1</a>
       </div>
-      <div class="pastries-forms-item">
+      <div class="options-forms-item">
         <img src="img/puff_pastry.jpg" alt="">
         <h3>My section 2</h3>
         <p>Pastries are a beloved dessert choice for many due to their delightful combination of flaky textures and rich flavors, offering a perfect balance of sweetness and indulgence. With options ranging from buttery croissants to fruit-filled tarts, there's a pastry for every craving, making them an irresistible treat that could easily become your favorite!</p>
         <a href="#my-form">Go to Form 2</a>
       </div>
-      <div class="cake-forms-item">
-        <img src="img/red_velvet-88.jpg" alt="">
+      <div class="options-forms-item">
+        <img class="third-image" src="img/24-768x1024.jpg" alt="">
         <h3>My section 3</h3>
         <p>Cakes are a cherished dessert for many due to their versatility and the joy they bring to celebrations, with flavors ranging from classic vanilla to decadent chocolate and beyond. Whether enjoyed in a cozy slice at home or as the centerpiece of a special occasion, a well-made cake is a delightful treat that could quickly become your favorite!</p>
         <a href="#my-form">Go to Form 3</a>
@@ -126,25 +125,26 @@
             placeholder="Enter your age" />
         </div>
 
-        <fieldset>
-          <legend>1. Which type of dessert do you enjoy the most?</legend>
-        
-          <div>
-            <input type="checkbox" id="role" name="dessert" checked />
-            <label for="type">Flaky and buttery treats</label>
-          </div>
-        
-          <div>
-            <input type="checkbox" id="role" name="dessert" />
-            <label for="type">Creamy and light desserts</label>
-          </div>
+        <div class="form-control">
+          <label>
+            1. Which type of dessert do you enjoy the most?
+          </label>
 
-          <div>
-            <input type="checkbox" id="role" name="dessert" />
-            <label for="type">Moist and sweet confections</label>
-          </div>
-          
-        </fieldset>
+          <label for="q1-recommed-1">
+              <input type="radio" id="q1-recommed-1"
+                    name="q1-recommed">Flaky and buttery treats
+                </input>
+          </label>
+          <label for="q1-recommed-2">
+              <input type="radio" id="q1-recommed-2"
+                    name="q1-recommed">Creamy and light desserts
+                </input>
+          </label>
+          <label for="q1-recommed-3">
+            <input type="radio" id="q1-recommed-3"
+                  name="q1-recommed">Moist and sweet confections
+            </input>
+        </div>
       
         <div class="form-control1">
           <label>
@@ -180,24 +180,26 @@
           </label>
 
         
-          <label for="recommed-1">
-              <input type="radio" id="recommed-1"
-                    name="recommed">Croissant
+          <label for="q3-recommed-1">
+              <input type="radio" id="q3-recommed-1"
+                    name="q3-recommed">Croissant
                 </input>
           </label>
-          <label for="recommed-2">
-              <input type="radio" id="recommed-2"
-                    name="recommed">Eclair
+          <label for="q3-recommed-2">
+              <input type="radio" id="q3-recommed-2"
+                    name="q3-recommed">Eclair
                 </input>
           </label>
-          <label for="recommed-3">
-            <input type="radio" id="recommed-3"
-                  name="recommed">Danish
+          <label for="q3-recommed-3">
+            <input type="radio" id="q3-recommed-3"
+                  name="q3-recommed">Danish
             </input>
           </label>
         </label>
-           <label for="comment">
-            Other:
+        <label for="q3-recommed-3">
+          <input type="text" id="q3-recommed-3"
+                name="q3-recommed">Other
+          </input>
         </label>
         </div>
         
@@ -207,26 +209,27 @@
           </label>
 
         
-          <label for="recommed-1">
-              <input type="radio" id="recommed-1"
-                    name="recommed">chocolate
+          <label for="q4-recommed-1">
+              <input type="radio" id="q4-recommed-1"
+                    name="q4-recommed">chocolate
                 </input>
           </label>
-          <label for="recommed-2">
-              <input type="radio" id="recommed-2"
-                    name="recommed">Fruit (e.g., raspberry, mango)
+          <label for="q4-recommed-2">
+              <input type="radio" id="q4-recommed-2"
+                    name="q4-recommed">Fruit (e.g., raspberry, mango)
                 </input>
           </label>
-          <label for="recommed-3">
-            <input type="radio" id="recommed-3"
-                  name="recommed">Coffee
+          <label for="q4-recommed-3">
+            <input type="radio" id="q4-recommed-3"
+                  name="q4-recommed">Coffee
             </input>
           </label>
         </label>
-        <label for="recommed-4">
-          <input type="radio" id="recommed-4"
-                name="recommed">Other
+        <label for="q4-recommed-3">
+          <input type="text" id="q4-recommed-3"
+                name="q4-recommed">Other
           </input>
+        </label>
         </div>
 
         <div class="form-control5">
@@ -235,31 +238,31 @@
           </label>
 
           
-          <label for="recommed-1">
-              <input type="radio" id="recommed-1"
-                    name="recommed">Daily
+          <label for="q5-recommed-1">
+              <input type="radio" id="q5-recommed-1"
+                    name="q5-recommed">Daily
                 </input>
           </label>
-          <label for="recommed-2">
-              <input type="radio" id="recommed-2"
-                    name="recommed">A few times a week
+          <label for="q5-recommed-2">
+              <input type="radio" id="q5-recommed-2"
+                    name="q5-recommed">A few times a week
                 </input>
           </label>
-          <label for="recommed-3">
-            <input type="radio" id="recommed-3"
-                  name="recommed">Once a week
+          <label for="q5-recommed-3">
+            <input type="radio" id="q5-recommed-3"
+                  name="q5-recommed">Once a week
             </input>
           </label>
         </label>
-        <label for="recommed-4">
-          <input type="radio" id="recommed-4"
-                name="recommed">A few times a month
+        <label for="q5-recommed-4">
+          <input type="radio" id="q5-recommed-4"
+                name="q5-recommed">A few times a month
           </input>
         </label>
       </label>
-      <label for="recommed-5">
-        <input type="radio" id="recommed-5"
-              name="recommed">Rarely
+      <label for="q5-recommed-5">
+        <input type="radio" id="q5-recommed-5"
+              name="q5-recommed">Rarely
         </input>
         </div>
 
