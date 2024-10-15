@@ -23,7 +23,6 @@ button.addEventListener("click", (ev) => {
     // Perform action: add class to body element
     body.classList.add('form-submitted');
 
-    window.scrollTo(0, 0);
 });
 
 
@@ -35,19 +34,3 @@ function myFunction() {
       x.style.display = "flex";
     }
   }
-
-  document.getElementById('open-popup').onclick = function() {
-    document.getElementById('popup').style.display = 'block';
-    document.getElementById('name').focus(); // Focus on the first input
-};
-
-document.getElementById('close-popup').onclick = function() {
-    document.getElementById('popup').style.display = 'none';
-};
-
-// Close the popup if the user clicks outside of it
-window.onclick = function(event) {
-    if (event.target == document.getElementById('popup')) {
-        document.getElementById('popup').style.display = 'none';
-    }
-};
