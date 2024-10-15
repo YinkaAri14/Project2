@@ -82,8 +82,9 @@ h1 {
   
   @media (min-width: 1000px) {
     .mobile-nav-wrapper {
+        display: none;
         background-color: white
-      display: none;
+      
     }
   }
   
@@ -146,12 +147,16 @@ label{
       margin-left: auto;
       margin-right: auto;
       padding-bottom: 20px;
+      color: #DD7B4A;
   }
   
   .dessert-forms-items {
       display: flex;
       flex-direction: column;
       gap: 16px;
+
+
+
   }
   
   @media (min-width: 800px) {
